@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind css projects</title>
+    <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!-- fontawesom icon -->
+ <script src="https://kit.fontawesome.com/8c5e170e61.js" crossorigin="anonymous"></script>
+     <!-- css link -->
     <link rel="stylesheet" href="styles/css.css">
 </head>
-<body>
-    <h1>hellow world</h1>
+<body class="font-poppins relative bg-bg-color">
+    <header id="header" class="fixed w-full left-0 top-0 h-15 bg-gradient-to-r from-indigo-500 to-emerald-500">
+        <nav>
+            <ul class="text-center">
+                <li class="active inline-block"><a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-color hover:text-black" href="#home"><i class="fa-solid fa-house pr-0 md:pr-3"></i ><span class="hidden md:inline-block">Home</span></a></li>
+
+                <li class="active inline-block"><a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-color hover:text-black" href="#about"><i class="fa-solid fa-user pr-0 md:pr-3"></i ><span class="hidden md:inline-block">About</span></a></li>
+
+                <li class="active inline-block"><a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-color hover:text-black" href="#service"><i class="fa-solid fa-gear pr-0 md:pr-3"></i ><span class="hidden md:inline-block">Service</span></a></li>
+
+                <li class="active inline-block"><a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-color hover:text-black" href="#contact"><i class="fa-solid fa-phone pr-0 md:pr-3"></i ><span class="hidden md:inline-block">Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- home area -->
+         <section id="home" class="h-screen flex items-center justify-center">
+            <div class="w-3/4">
+                <div class="bg-bg-dark-color p-10 rounded-2xl border-zinc-700">
+                    <img src="image/home.svg" alt="" class="w-custom-image-width mb-5">
+                    <h5 class="text-lg text-primary-color">PLATFORM BUISNESS GROWTH</h5>
+                    <h3 class="text-xl text-white md:text-4xl font-semibold mb-5">Get Your onilne Buisness Goal In Oreder</h3>
+                    <a href="" class="bg-primary-color font-semibold inline-block px-10 py-3 rounded hover:bg-indigo-500 hover:text-white ">Learn More.</a>
+                </div>
+            </div>
+         </section>
+         
+         <!-- about area -->
+        <section id="about" class="h-screen flex items-center justify-center">
+            <div class="w-3/4">
+                <div class="bg-bg-dark-color p-10 rounded-2xl border-zinc-700">
+                    <img src="image/about.svg" alt="" class="w-custom-image-width mb-5">
+                    <h5 class="text-lg text-primary-color">Who we are?</h5>
+
+                    <h3 class="text-xl text-white md:text-4xl font-semibold mb-5">Our team consists ofenpracticeoners who have years of exprieance in launch</h3>
+
+                    <p class="text-white hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum qui unde illum accusantium quod ducimus aliquam commodi culpa repudiandae consequuntur possimus dignissimos, sunt sed dolor voluptatem neque eius. Soluta corrupti illum fuga optio quidem error porro recusandae, reiciendis illo aliquid quod totam! Impedit eum velit aspernatur at praesentium quisquam.</p>
+                </div>
+            </div>
+        </section>
+        <!--service section  -->
+        <section id="service" class="h-screen flex items-center justify-center">
+            <div class="w-3/4">
+                <div class="bg-bg-dark-color p-10 rounded-2xl border-zinc-700">
+                    <img src="image/service.svg" alt="" class="w-custom-image-width mb-5">
+                    <h5 class="text-lg text-primary-color capitalize">Our Spalization</h5>
+
+                    <h3 class="text-xl text-white md:text-4xl font-semibold mb-5 capitalize">What we offer</h3>
+
+                    <div class="flex justify-between mt-4 flex-wrap" >
+                        <div class="bg-bg-dark-color border-green-900 border-2 px-2 py-3 rounded-lg mr-1 w-[48%] md:w-[24%] mb-3 md:p-5">
+                            <i class="fa-brands fa-figma text-primary-color text-3xl mb-3"></i>
+                            <h3 class="text-white text-sm md:text-2xl font-semibold mb-3">UI/UX Design</h3>
+                            <p class="text-white hidden md:block">It is a involves the systematic analysis of data to gain valuable insites into the various type aspects of buisness</p>
+                        </div>
+                        <div class="bg-bg-dark-color border-green-900 border-2 px-2 py-3 rounded-lg mr-1 w-[48%] md:w-[24%] mb-3 md:p-5">
+                            <i class="fa-solid fa-money-bill-trend-up text-primary-color text-3xl mb-3"></i>
+                            <h3 class="text-white text-sm md:text-2xl font-semibold mb-3">DIGITAL Marketing</h3>
+                            <p class="text-white hidden md:block">It is a involves the systematic analysis of data to gain valuable insites into the various type aspects of buisness</p>
+                        </div>
+                        <div class="bg-bg-dark-color border-green-900 border-2 px-2 py-3 rounded-lg mr-1 w-[48%] md:w-[24%] mb-3 md:p-5">
+                            <i class="fa-solid fa-laptop-code text-primary-color text-3xl mb-3"></i>
+                            <h3 class="text-white text-sm md:text-2xl font-semibold mb-3">WEBSITE DESIGN</h3>
+                            <p class="text-white hidden md:block">It is a involves the systematic analysis of data to gain valuable insites into the various type aspects of buisness</p>
+                        </div>
+                        <div class="bg-bg-dark-color border-green-900 border-2 px-2 py-3 rounded-lg mr-1 w-[48%] md:w-[24%] mb-3 md:p-5">
+                            <i class="fa-solid fa-swatchbook text-primary-color text-3xl mb-3"></i>
+                            <h3 class="text-white text-sm md:text-2xl font-semibold mb-3">PRODUCT Design</h3>
+                            <p class="text-white hidden md:block">It is a involves the systematic analysis of data to gain valuable insites into the various type aspects of buisness</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact area  -->
+         <section id="contact" class="h-screen flex items-center justify-center">
+            <div class="w-3/4">
+                <div class="bg-bg-dark-color p-10 rounded-2xl border-zinc-700">
+                    <img src="image/contact.svg" alt="" class="w-custom-image-width mb-5">
+                    <h3 class="text-lg text-primary-color">SEND A MESSAGE</h3>
+                    <form action="" class="mt-4">
+                       <div class="flex">
+                         <input type="text" placeholder="Enter your Name" class="bg-bg-color  border-zinc-700 rounded-lg px-3 py-2 w-[47%] md:w-[48%] mb-3 mr-2  text-xs">
+
+                        <input type="email" placeholder="Enter your Email" class="bg-bg-color  border-zinc-700 rounded-lg px-3 py-2 w-[47%] md:w-[48%] mb-3 mr-2 text-xs">
+                       </div>
+                       <textarea name="" id="" placeholder="Your Message" class="bg-bg-color  border-zinc-700 rounded-lg px-3 py-2 w-[96%] md:w-[97%] mb-3 mr-2  text-xs"></textarea>
+                       <input type="submit" name="" id="" value="Send Message" class="bg-primary-color font-semibold inline-block px-10 py-3 rounded hover:bg-indigo-500 hover:text-white ">
+                    </form>
+                    
+                </div>
+            </div>
+         </section>
+
+
+    </main>
+<script src="script.js"></script>
 </body>
 </html>
